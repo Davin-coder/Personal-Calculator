@@ -13,12 +13,6 @@ const displayData = function(){
     };
 };
 
-// jerarquia
-
-// Etiqueta
-// Producto
-// Tarea
-
 window.onload = displayData;
 
 //Inits the counter in Session Storage
