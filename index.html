@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <div class="main-container">
+            <form id="operation-form">
+                <h2>Personal Calculator</h2>
+                <label>Firts Number
+                    <input type="number" id="number-1">
+                </label>
+                <label>Second Number
+                    <input type="number" id="number-2">
+                </label>
+                <label>Operation
+                    <select id="select-operation">
+                        <option value="+">Sum</option>
+                        <option value="-">Substration</option>
+                        <option value="x">Multiplication</option>
+                        <option value="÷">Division</option>
+                    </select>
+                </label>
+                <button type="submit" id="btn-calculate">Calculate</button>
+                <button type="button" id="btn-clear">Clear history</button>
+            </form>
+            <div class="history-container">
+                <h3>Lastest Operation</h3>
+                <p id="output"></p>
+            </div>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
